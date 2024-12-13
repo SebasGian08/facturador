@@ -70,4 +70,4 @@ $respuesta = ControladorUsuarios::ctrConn();
 <div id="fondP">
 <div class="fnd"></div>
 </div>
-<script src="https://www.google.com/recaptcha/api.js?render=6Lf0FJoqAAAAAAstAfaM25DP55zTFwo1YNCwLmas"></script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LdTdcggAAAAAPzue7S6tJumtvWlWCS_Pa1kxPVE"></script>

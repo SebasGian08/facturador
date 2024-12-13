@@ -24,7 +24,7 @@ e.preventDefault();
 var conectar = $("#conectado").val();
         if(conectar == 'ok'){
         grecaptcha.ready(function() {
-            grecaptcha.execute('6Lf0FJoqAAAAAAstAfaM25DP55zTFwo1YNCwLmas', {
+            grecaptcha.execute('6LdTdcggAAAAAPzue7S6tJumtvWlWCS_Pa1kxPVE', {
                 action: 'validarUsuario'
                 }).then(function(token) {
                 $('#form-login').prepend('<input type="hidden" name="token" id="token" value="' + token + '" >');

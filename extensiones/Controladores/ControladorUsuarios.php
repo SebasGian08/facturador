@@ -7,7 +7,7 @@ class ControladorUsuarios{
     public  static function ctrIngresoUsuario($user, $pass, $token, $conectar){
          
         if($conectar == 'ok'){
-        define('CLAVE', '6Lf0FJoqAAAAAA_N4zt90v3Lwry6_A5r3n5oDtnO');
+        define('CLAVE', '6LdTdcggAAAAAEvl4ZktiKNXSKE3S6B92LeHbeUS');
         
         $cu = curl_init();
         curl_setopt($cu, CURLOPT_URL, "https://www.google.com/recaptcha/api/siteverify");
